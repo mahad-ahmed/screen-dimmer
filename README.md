@@ -5,7 +5,9 @@ Basically a software filter on your display.
 </br>
 
 Change `"DVI-I-1"` from this line `sprintf(str, "xrandr --output DVI-I-1 --brightness %.2f", gtk_range_get_value(slider));` to whatever your connected display is called.
-</br>You can use `xrandr | grep " connected " | awk '{ print$1 }'` to list your connected displays.
+</br>You can use `xrandr | grep " connected " | awk '{ print$1 }'` to list your connected displays to choose from.
+
+I have plans to add this into a list in the app itself in the future.
 
 </br>
 
