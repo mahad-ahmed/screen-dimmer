@@ -15,7 +15,8 @@ I have plans to add this into a list in the app itself in the future.
 - gtk3
 - glib
 
-Example compilation command: `` gcc screen-dimmer.c -o screen-dimmer `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0 --cflags glib-2.0 --libs glib-2.0` ``
+Example compilation command:</br>
+`` gcc screen-dimmer.c -o screen-dimmer `pkg-config --cflags gtk+-3.0 --libs gtk+-3.0 --cflags glib-2.0 --libs glib-2.0` ``
 
 </br>
 
