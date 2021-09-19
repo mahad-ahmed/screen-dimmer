@@ -1,5 +1,5 @@
 # screen-dimmer
-A small GTK+ app to control screen brightness in Ubuntu below what your hardware(monitor) allows.
+A small GTK app to control screen brightness in Ubuntu below what your hardware(monitor) allows.
 Basically a software filter on your display.
 
 </br>
