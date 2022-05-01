@@ -6,8 +6,8 @@ static void on_value_changed(GtkRange *slider, gfloat data) {
     char str[50];
     // You can use the following command to list your connected displays: xrandr | grep " connected " | awk '{ print$1 }'
     // If you're feeling productive, you can use popen and display a list of monitors to choose from in this app
-    // Change DVI-I-1 in the string to whatever display you want to control
-    sprintf(str, "xrandr --output DVI-I-1 --brightness %.2f", gtk_range_get_value(slider));
+    // Change HDMI-1 in the string to whatever display you want to control
+    sprintf(str, "xrandr --output HDMI-1 --brightness %.2f", gtk_range_get_value(slider));
     system(str);
 }
 
